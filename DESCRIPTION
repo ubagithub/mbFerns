@@ -1,0 +1,10 @@
+Package: mbFerns
+Type: Package
+Title: Multi Branch Decision Trees (Ferns) Classifier
+Version: 1.0.2
+Date: 2018-08-28
+Author: Ulavappa B Angadi.
+Maintainer: Ulavappa B Angadi <angadiub@gmail.com>
+Description: This is Multi Branch Decision Trees (Ferns) classifier based on Naive Bayes probabilistic classification model.
+License: GPL-3
+Imports: plyr, mlbench, plotrix, dotCall64

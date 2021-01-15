@@ -1,0 +1,19 @@
+export(mbferns)
+
+
+S3method(predict,  mbferns)
+S3method(print, mbferns)
+
+
+S3method(mbferns, default)
+
+
+
+useDynLib(mbFerns,mbrfern,mbrfern_predict, .registration = TRUE )
+
+import(plyr)
+import(mlbench)
+import(plotrix)
+import(dotCall64)
+importFrom("grDevices", "dev.off", "png")
+importFrom("graphics", "plot", "segments", "text")
